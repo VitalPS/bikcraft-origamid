@@ -1,0 +1,654 @@
+/* ESTILOS GERAIS */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+}
+
+.btn {
+  color: #fec63e;
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-preto:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.subtitulo {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fec63e;
+  padding: 15px 0px;
+  box-shadow: 0 1.5px 3px #000;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 22px;
+}
+
+.header_menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0px;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li .ativo {
+  color: #fff;
+}
+
+.ativo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+/* INTRODUÇÃO */
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.introducao h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.quote_externo {
+  color: #fff;
+  max-width: 300px;
+  margin: 0px auto 40px auto;
+}
+
+.quote_externo p {
+  font-style: italic;
+}
+
+.quote_externo p:before,
+.quote_externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.quote_externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+/* PRODUTOS */
+.produtos {
+  padding: 40px 0;
+}
+
+.produtos_lista li {
+  background: #fec63e;
+  text-align: center;
+}
+
+.produtos_icone {
+  background: #000;
+  padding: 40px 0;
+}
+
+.produtos_icone img {
+  margin: 0 auto;
+}
+
+.produtos_lista li h3 {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.produtos_lista li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.call-to-action {
+  text-align: center;
+  clear: both;
+  padding-top: 40px;
+}
+
+.call-to-action p {
+  margin-bottom: 20px;
+}
+
+/* PORTIFÓLIO */
+.portifolio {
+  width: 100%;
+  background: #000;
+  padding: 40px 0;
+}
+
+.portifolio .subtitulo {
+  color: #fec63e;
+}
+
+.portifolio .subtitulo:after {
+  background: #fec63e;
+}
+
+.container .img_3 {
+  margin-top: 20px;
+}
+
+.portifolio .call-to-action p {
+  color: #fff;
+}
+
+/* QUALIDADE */
+.qualidade {
+  padding: 40px 0;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade:after {
+  content: "";
+  display: block;
+  width: 634px;
+  height: 83px;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 189px;
+  left: 164px;
+  z-index: -1;
+}
+
+.qualidade_textos {
+  padding: 30px 0 40px 0;
+}
+
+.qualidade_textos li {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.qualidade_textos li h3 {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.qualidade_textos li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+/* FOOTER */
+.pre_footer {
+  width: 100%;
+  height: 280px;
+  background: url(../img/bg-footer.jpg) no-repeat center; /* linhas da logo da seção qualidade*/
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pre_footer .quote_externo {
+  max-width: 380px;
+}
+
+.footer .dados {
+  padding: 40px 0;
+  text-align: left;
+  background: #000;
+}
+
+.footer .subtitulo {
+  color: #fec63e;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.footer .subtitulo::after {
+  background: #fec63e;
+  margin: 6px 0 20px 0;
+}
+
+.historia {
+  padding-right: 50px;
+}
+
+.historia p {
+  color: white;
+}
+
+.contato li {
+  list-style-type: square;
+  list-style-position: inside;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+.redes_sociais li {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  padding: 5px;
+  border: 3px solid #fec63e;
+}
+
+.diretos {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  background: #fec63e;
+}
+
+/* --PÁGINA SOBRE-- */
+
+/* INTRO */
+.intro_sobre {
+  width: 100%;
+  height: 160px;
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.intro_sobre .subtitulo {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro_sobre .subtitulo:after {
+  background: #fff;
+}
+
+.intro_sobre p {
+  color: #fff;
+}
+
+/* TEXTOS SOBRE */
+
+.texto_sobre {
+  padding: 40px 0;
+}
+
+.texto_sobre .subtitulo {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.texto_sobre .subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px 0 12px 0;
+}
+
+.textos {
+  padding: 20px 100px 40px 0px;
+}
+
+.textos p:last-child {
+  margin-top: 15px;
+}
+
+.texto_sobre ul li {
+  list-style-type: square;
+  list-style-position: inside;
+  list-style-type: square;
+  list-style-position: inside;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.texto_sobre img {
+  clear: both;
+  margin-top: 40px;
+}
+
+.qualidade_textos.sobre {
+  margin-bottom: 120px;
+}
+
+/* --PÁGINA PRODUTOS-- */
+
+/* INTRO */
+.intro_produtos {
+  width: 100%;
+  height: 160px;
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.intro_produtos .subtitulo {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro_produtos .subtitulo:after {
+  background: #fff;
+}
+
+.intro_produtos p {
+  color: #fff;
+}
+
+/* LISTA DE PRODUTOS */
+.produto {
+  padding: 40px 0;
+}
+
+.produto_intro {
+  display: inline-block;
+  width: 640px;
+  height: 280px;
+}
+
+.produto_passeio {
+  background: url("../img/produtos/bikcraft-passeio-1.jpg") no-repeat center;
+}
+
+.produto_esporte {
+  background: url("../img/produtos/bikcraft-esporte-1.jpg") no-repeat center;
+}
+
+.produto_retro {
+  background: url("../img/produtos/bikcraft-retro-1.jpg") no-repeat center;
+}
+
+.produto_intro p {
+  color: #fff;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 36px;
+}
+
+.produto_intro p:before,
+.produto_intro p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 12px auto 12px auto;
+}
+
+.icone_produtos {
+  display: inline-block;
+  padding-top: 60px;
+  height: 280px;
+  background: #000;
+}
+
+.icone_produtos img {
+  margin: 0 auto;
+}
+
+.descricao_produtos {
+  height: 280px;
+  background: #000;
+}
+
+.descricao_produtos p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 20px 40px 20px;
+}
+
+.separador_1 {
+  margin-top: 20px;
+}
+
+.separador_2 img,
+.separador_2 .descricao_produtos {
+  margin: 20px 10px 60px 10px;
+}
+
+.separador_2 ul li {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  width: 227.78px;
+  padding: 15px 10px;
+  margin-bottom: 4px;
+  color: #000;
+  background: #fec63e;
+}
+
+/* Orçamento */
+.secao_orcamento {
+  width: 100%;
+  background: #000;
+  padding: 40px 0;
+}
+
+.secao_orcamento .subtitulo {
+  color: #fec63e;
+}
+
+.secao_orcamento .subtitulo::after {
+  background: #fec63e;
+}
+
+.formulario {
+  color: #fff;
+}
+
+.formulario h3 {
+  color: #fec63e;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formulario label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.formulario input,
+.formulario textarea {
+  margin-bottom: 20px;
+  width: 400px;
+  border: 3px solid #fec63e;
+  background-color: #000;
+  pointer-events: all;
+  color: #fff;
+}
+
+.formulario ul {
+  margin-bottom: 20px;
+}
+
+.formulario .btn {
+  background: #000;
+}
+
+.dados_contato {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.dados_orcamento .monte {
+  margin-top: 40px;
+}
+
+.dados_orcamento p {
+  margin-bottom: 10px;
+}
+
+.especificacoes li {
+  background-color: #2b2b2c;
+  padding: 9px 0 9px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.dados_orcamento ul .contaste {
+  background-color: #000;
+}
+
+/* PÁGINA PORTIFÓLIO */
+
+/* Intro */
+.intro_portifolio {
+  width: 100%;
+  height: 160px;
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.intro_portifolio .subtitulo {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro_portifolio .subtitulo:after {
+  background: #fff;
+}
+
+.intro_portifolio p {
+  color: #fff;
+}
+
+.quote_portifolio {
+  padding: 40px 0;
+  width: 440px;
+  margin: 0 auto;
+}
+
+.quote_portifolio p {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.quote_portifolio cite {
+  clear: both;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  background: blue;
+}

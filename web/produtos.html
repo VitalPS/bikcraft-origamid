@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bikcraft</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/bikcraft.svg" alt="Logo Bikcraft">
+        <a>
+
+          <nav class="grid-12 header_menu">
+            <ul>
+              <li><a href="sobre.html">Sobre<a></li>
+              <li><a class="ativo">Produtos<a></li>
+              <li><a href="portifolio.html">Portifólio<a></li>
+              <li><a href="contato.html">Contato<a></li>
+            </ul>
+          </nav>
+    </div>
+  </header>
+
+  <!-- Introdução -->
+  <section class="intro_produtos">
+    <div class="container">
+      <h1 class="subtitulo">Produtos</h1>
+      <p>Conheça todos os nossos produtos</p>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section class="container secao_produtos">
+    <div class="produto">
+      <div class="separador_1">
+        <div class="grid-11 produto_intro produto_passeio">
+          <p class="subtitulo">Passeio</p>
+        </div>
+        <div class="grid-5 icone_produtos"><img src="img/produtos/passeio.svg" alt="Ícone Passeio"></div>
+      </div>
+      <div class="separador_2">
+        <img class="grid-8" src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio 2">
+        <div class="grid-8 descricao_produtos">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl nisi scelerisque.</p>
+          <div>
+            <ul>
+              <li>Conforto</li>
+              <li>Velocidade</li>
+              <li>Versatilidade</li>
+              <li>Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="produto">
+        <div class="separador_1">
+          <div class="grid-11 produto_intro produto_esporte">
+            <p class="subtitulo">Esporte</p>
+          </div>
+          <div class="grid-5 icone_produtos"><img src="img/produtos/esporte.svg" alt="Ícone Esporte"></div>
+        </div>
+        <div class="separador_2">
+          <img class="grid-8" src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Passeio 2">
+          <div class="grid-8 descricao_produtos">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl nisi scelerisque.</p>
+            <div>
+              <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Versatilidade</li>
+                <li>Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="produto">
+        <div class="separador_1">
+          <div class="grid-11 produto_intro produto_retro">
+            <p class="subtitulo">Retrô</p>
+          </div>
+          <div class="grid-5 icone_produtos"><img src="img/produtos/retro.svg" alt="Ícone Retrô"></div>
+        </div>
+        <div class="separador_2">
+          <img class="grid-8" src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retrô 2">
+          <div class="grid-8 descricao_produtos">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl nisi scelerisque.</p>
+            <div>
+              <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Versatilidade</li>
+                <li>Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- ORÇAMENTO -->
+  <section class="secao_orcamento">
+    <h2 class="subtitulo">Orçamento</h2>
+    <div class="container formulario">
+      <form class="grid-8" action="" method="POST" name="fomulario_contato">
+        <div class="item">
+          <label for="nome">Nome*</label>
+          <input id="nome" name="nome" type="text" required>
+        </div>
+        <div class="item">
+          <label for="email">E-mail*</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div>
+          <label for="telefone">Telefone</label>
+          <input id="telefone" name="telefone" type="tel" placeholder="(99)99999-9999">
+        </div>
+        <div>
+          <label for="msg">Mensagem*</label>
+          <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
+        </div>
+        <div>
+          <button class="btn" type="submit">Enviar</button>
+        </div>
+      </form>
+      <div class="grid-8 dados_orcamento">
+        <h3>Dados</h3>
+        <ul class="dados_contato">
+          <li>+55 37 9999-99999</li>
+          <li>orçamento@bikcraft.com</li>
+        </ul>
+        <h3 class="monte">Monte a sua Bikcraft</h3>
+        <p>Escolha as especificações</p>
+        <ul class="especificacoes">
+          <li>Cores</li>
+          <li class="contaste">Estilo</li>
+          <li>Acessórios</li>
+          <li class="contaste">Medidas</li>
+          <li>Outros</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <section class="pre_footer">
+      <blockquote class="quote_externo">
+        <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"</p>
+        <cite>WILLIAM MORRIS</cite>
+      </blockquote>
+    </section>
+
+    <section class="dados">
+      <div class="container">
+        <div class="grid-8 historia">
+          <h3 class="subtitulo">Nossa História</h3>
+          <p>molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis utmolestie nunc non blandit massa enim nec dui.</p>
+        </div>
+
+        <div class="grid-4  contato">
+          <h3 class="subtitulo">Contato</h3>
+          <ul>
+            <li>(37) 9999-99999</li>
+            <li>contato@bikcraft.com</li>
+            <li>Divinópolis - MG</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 redes_sociais">
+          <h3 class="subtitulo">Redes sociais</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/"><img src="img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com/"><img src="img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="diretos">
+      <p>Bikcraft 2020. Todos os direitos reservados.</p>
+    </section>
+  </footer>
+
+</body>
+
+</html>
